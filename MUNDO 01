@@ -1,0 +1,2 @@
+git push origin <nome da branch que você deseja subir para o GitHub>
+git push origin main
