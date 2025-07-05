@@ -1,29 +1,16 @@
-print('DESAFIO 003')
+print ('>>>DESAFIO 003<<<')
 
-print('"'*11)
-print()
+print ('—'*70)
 
-print('°'*30)
-print()
+print ('Crie um script python que leia dois números e tente mostrar a soma\n entre eles.')
 
-print('Crie um script python que leia \ndois número, e tente mostrar a \nsoma entre eles.')
+print ('—'*70)
 
-print()
-print('°'*30)
-print()
+n1 = float (input ('Digite um número: ') )
 
-print('Olá bem vindo á CALCULADORA, \ndigite dois números que eu \nirei somar os dois.')
 
-print()
+n2 = float (input ('Digite outro número: ') )
 
-n1=float(input('Primeiro número: '))
-n2=float(input('Segundo número: '))
+print ()
 
-print()
-print('°'*30)
-print()
-
-print('A soma entre ({}) e ({}) \nÉ: ({})'.format(n1,n2,n1+n2))
-
-print()
-print('°'*30)
+print ('A sua soma é {}' . format ( n1 + n2 ) )
