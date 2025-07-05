@@ -10,4 +10,4 @@ nome = input ('Qual é o seu nome ? ')
 
 print ()
 
-print ('Seja bem vindo' , 
+print ('Seja bem vindo' , nome , '!')
