@@ -1,32 +1,25 @@
-print('DESAFIO 002')
+print ('>>>DESAFIO 002<<<')
 
-print('•'*11)
-print()
+print ('—'*70)
 
-print('"'*30)
-print()
+print ('Crie um script python que leia o dia, o mês e o ano de nascimento\n de uma pessoa e mostre uma mensagem com a data formatada.')
 
-print('Crie um script python que leia \no dia, o mês e o ano de \nnascimento de uma pessoa e \nmostre uma mensagem com a data \nformatada.')
+print ('—'*70)
 
-print()
-print('"'*30)
-print()
+dia = input ('Qual DIA você nasceu: ')
 
-print('Olá meu nome é Rafael e eu \nnasci no dia 21 do 11 de 2011.')
+print ()
 
-print()
-print('"'*30)
-print()
+mês= input ('Qual MÊS que você nasceu: ')
 
-dia=str(input('Qual dia você nasceu? '))
-mês=str(input('Qual mês você nasceu? '))
-ano=str(input('Qual ano você nasceu? '))
+print ()
 
-print()
-print('"'*30)
-print()
+ano = input ('Qual ANO você nasceu: ')
 
-print('Você nasceu no dia {};\nDo mês {};\nNo ano de {}.'.format(dia, mês,ano))
+print ()
 
-print()
-print('"'*30)
+print ('Você nasceu no dia {} no mês {} no ano de {}.' .format ( dia , mês , ano ) )
+
+print ()
+
+input ('Estou certo ? ')
